@@ -1,0 +1,10 @@
+{
+  "commit": "ec5ff4445cca6a1d786b8da36cf6fe0acc0b94c8",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2Fjournald-syslog.c?ref=ec5ff4445cca6a1d786b8da36cf6fe0acc0b94c8"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2Fjournald-syslog.c?ref=ec5ff4445cca6a1d786b8da36cf6fe0acc0b94c8": 13806
+  },
+  "total_size": 13806
+}

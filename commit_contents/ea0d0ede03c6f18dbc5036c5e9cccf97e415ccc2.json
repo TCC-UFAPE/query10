@@ -1,0 +1,22 @@
+{
+  "commit": "ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/TODO?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2",
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Frules%2Fmeson.build?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2",
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsd_bus_enqueue_for_read.xml?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Flibsystemd.sym?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fsd-bus.c?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fbus-polkit.c?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-bus.h?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/TODO?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2": 59489,
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Frules%2Fmeson.build?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2": 29732,
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsd_bus_enqueue_for_read.xml?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2": 3216,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Flibsystemd.sym?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2": 20051,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fsd-bus.c?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2": 127982,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fbus-polkit.c?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2": 12495,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-bus.h?ref=ea0d0ede03c6f18dbc5036c5e9cccf97e415ccc2": 28203
+  },
+  "total_size": 281168
+}

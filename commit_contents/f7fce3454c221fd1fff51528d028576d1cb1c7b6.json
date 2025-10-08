@@ -1,0 +1,18 @@
+{
+  "commit": "f7fce3454c221fd1fff51528d028576d1cb1c7b6",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbus-proxyd%2Fbus-proxyd.c?ref=f7fce3454c221fd1fff51528d028576d1cb1c7b6",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Flibsystemd.sym.m4?ref=f7fce3454c221fd1fff51528d028576d1cb1c7b6",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fsd-bus.c?ref=f7fce3454c221fd1fff51528d028576d1cb1c7b6",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Ftest-bus-chat.c?ref=f7fce3454c221fd1fff51528d028576d1cb1c7b6",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-bus.h?ref=f7fce3454c221fd1fff51528d028576d1cb1c7b6"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbus-proxyd%2Fbus-proxyd.c?ref=f7fce3454c221fd1fff51528d028576d1cb1c7b6": 55408,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Flibsystemd.sym.m4?ref=f7fce3454c221fd1fff51528d028576d1cb1c7b6": 13388,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fsd-bus.c?ref=f7fce3454c221fd1fff51528d028576d1cb1c7b6": 95808,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Ftest-bus-chat.c?ref=f7fce3454c221fd1fff51528d028576d1cb1c7b6": 18697,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-bus.h?ref=f7fce3454c221fd1fff51528d028576d1cb1c7b6": 21833
+  },
+  "total_size": 205134
+}

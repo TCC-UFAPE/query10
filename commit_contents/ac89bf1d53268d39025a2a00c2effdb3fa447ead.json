@@ -1,0 +1,14 @@
+{
+  "commit": "ac89bf1d53268d39025a2a00c2effdb3fa447ead",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-internal.c?ref=ac89bf1d53268d39025a2a00c2effdb3fa447ead",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-internal.h?ref=ac89bf1d53268d39025a2a00c2effdb3fa447ead",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-message.c?ref=ac89bf1d53268d39025a2a00c2effdb3fa447ead"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-internal.c?ref=ac89bf1d53268d39025a2a00c2effdb3fa447ead": 1779,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-internal.h?ref=ac89bf1d53268d39025a2a00c2effdb3fa447ead": 3025,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-message.c?ref=ac89bf1d53268d39025a2a00c2effdb3fa447ead": 79195
+  },
+  "total_size": 83999
+}

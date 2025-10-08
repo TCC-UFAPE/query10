@@ -1,0 +1,16 @@
+{
+  "commit": "50d9e46dbb8400d4570781728c63b151d9ca982b",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Ftmpfiles.d.xml?ref=50d9e46dbb8400d4570781728c63b151d9ca982b",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Facl-util.c?ref=50d9e46dbb8400d4570781728c63b151d9ca982b",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Facl-util.h?ref=50d9e46dbb8400d4570781728c63b151d9ca982b",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftmpfiles%2Ftmpfiles.c?ref=50d9e46dbb8400d4570781728c63b151d9ca982b"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Ftmpfiles.d.xml?ref=50d9e46dbb8400d4570781728c63b151d9ca982b": 23258,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Facl-util.c?ref=50d9e46dbb8400d4570781728c63b151d9ca982b": 6715,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Facl-util.h?ref=50d9e46dbb8400d4570781728c63b151d9ca982b": 1460,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftmpfiles%2Ftmpfiles.c?ref=50d9e46dbb8400d4570781728c63b151d9ca982b": 58931
+  },
+  "total_size": 90364
+}

@@ -1,0 +1,26 @@
+{
+  "commit": "3b319885c4febb5f7ea9b5ab31c3395548ed6886",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/coccinelle%2Ffree_and_replace.cocci?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Falloc-util.h?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Ffs-util.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fpath-util.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fmount.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fservice.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal-remote%2Fjournal-upload.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Finstall.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/coccinelle%2Ffree_and_replace.cocci?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886": 181,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Falloc-util.h?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886": 4322,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Ffs-util.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886": 22734,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fpath-util.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886": 24886,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886": 135934,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fmount.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886": 61499,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fservice.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886": 122448,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal-remote%2Fjournal-upload.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886": 29373,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Finstall.c?ref=3b319885c4febb5f7ea9b5ab31c3395548ed6886": 95493
+  },
+  "total_size": 496870
+}

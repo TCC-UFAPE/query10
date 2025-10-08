@@ -1,0 +1,14 @@
+{
+  "commit": "4a2a8b5a82325494f5daf4c66c23fdb4f906c9e6",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/.gitignore?ref=4a2a8b5a82325494f5daf4c66c23fdb4f906c9e6",
+    "https://api.github.com/repos/systemd/systemd/contents/Makefile.am?ref=4a2a8b5a82325494f5daf4c66c23fdb4f906c9e6",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fnotify.c?ref=4a2a8b5a82325494f5daf4c66c23fdb4f906c9e6"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/.gitignore?ref=4a2a8b5a82325494f5daf4c66c23fdb4f906c9e6": 422,
+    "https://api.github.com/repos/systemd/systemd/contents/Makefile.am?ref=4a2a8b5a82325494f5daf4c66c23fdb4f906c9e6": 17049,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fnotify.c?ref=4a2a8b5a82325494f5daf4c66c23fdb4f906c9e6": 5022
+  },
+  "total_size": 22493
+}

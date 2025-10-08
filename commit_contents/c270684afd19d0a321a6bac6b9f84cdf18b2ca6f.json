@@ -1,0 +1,16 @@
+{
+  "commit": "c270684afd19d0a321a6bac6b9f84cdf18b2ca6f",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/.gitignore?ref=c270684afd19d0a321a6bac6b9f84cdf18b2ca6f",
+    "https://api.github.com/repos/systemd/systemd/contents/Makefile.am?ref=c270684afd19d0a321a6bac6b9f84cdf18b2ca6f",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftest%2Ftest-fs-util.c?ref=c270684afd19d0a321a6bac6b9f84cdf18b2ca6f",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftest%2Ftest-util.c?ref=c270684afd19d0a321a6bac6b9f84cdf18b2ca6f"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/.gitignore?ref=c270684afd19d0a321a6bac6b9f84cdf18b2ca6f": 4663,
+    "https://api.github.com/repos/systemd/systemd/contents/Makefile.am?ref=c270684afd19d0a321a6bac6b9f84cdf18b2ca6f": 155500,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftest%2Ftest-fs-util.c?ref=c270684afd19d0a321a6bac6b9f84cdf18b2ca6f": 2914,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftest%2Ftest-util.c?ref=c270684afd19d0a321a6bac6b9f84cdf18b2ca6f": 15023
+  },
+  "total_size": 178100
+}

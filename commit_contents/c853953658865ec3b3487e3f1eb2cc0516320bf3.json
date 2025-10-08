@@ -1,0 +1,14 @@
+{
+  "commit": "c853953658865ec3b3487e3f1eb2cc0516320bf3",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.service.xml?ref=c853953658865ec3b3487e3f1eb2cc0516320bf3",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.c?ref=c853953658865ec3b3487e3f1eb2cc0516320bf3",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftest%2Ftest-unit-file.c?ref=c853953658865ec3b3487e3f1eb2cc0516320bf3"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.service.xml?ref=c853953658865ec3b3487e3f1eb2cc0516320bf3": 80355,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.c?ref=c853953658865ec3b3487e3f1eb2cc0516320bf3": 120605,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftest%2Ftest-unit-file.c?ref=c853953658865ec3b3487e3f1eb2cc0516320bf3": 18608
+  },
+  "total_size": 219568
+}

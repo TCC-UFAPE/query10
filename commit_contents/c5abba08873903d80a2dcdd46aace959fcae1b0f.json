@@ -1,0 +1,12 @@
+{
+  "commit": "c5abba08873903d80a2dcdd46aace959fcae1b0f",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/Makefile.am?ref=c5abba08873903d80a2dcdd46aace959fcae1b0f",
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd-notify.xml?ref=c5abba08873903d80a2dcdd46aace959fcae1b0f"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/Makefile.am?ref=c5abba08873903d80a2dcdd46aace959fcae1b0f": 19975,
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd-notify.xml?ref=c5abba08873903d80a2dcdd46aace959fcae1b0f": 7649
+  },
+  "total_size": 27624
+}

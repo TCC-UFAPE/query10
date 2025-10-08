@@ -1,0 +1,10 @@
+{
+  "commit": "b8afec210783b4a15ac8375b435a62e8bfa4258b",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.exec.xml?ref=b8afec210783b4a15ac8375b435a62e8bfa4258b"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.exec.xml?ref=b8afec210783b4a15ac8375b435a62e8bfa4258b": 170435
+  },
+  "total_size": 170435
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "96551bae6107936a4576b9b4b391abbc9963bdfe",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fnotify.c?ref=96551bae6107936a4576b9b4b391abbc9963bdfe"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fnotify.c?ref=96551bae6107936a4576b9b4b391abbc9963bdfe": 5437
+  },
+  "total_size": 5437
+}

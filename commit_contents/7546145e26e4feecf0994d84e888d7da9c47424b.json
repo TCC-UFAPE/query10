@@ -1,0 +1,28 @@
+{
+  "commit": "7546145e26e4feecf0994d84e888d7da9c47424b",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fstring-util.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fstring-util.h?ref=7546145e26e4feecf0994d84e888d7da9c47424b",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Funit-name.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fcgroup.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibudev%2Flibudev-private.h?ref=7546145e26e4feecf0994d84e888d7da9c47424b",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibudev%2Flibudev-util.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftest%2Ftest-string-util.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fudev-rules.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fudevadm-test-builtin.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fudevadm-test.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fstring-util.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b": 21211,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fstring-util.h?ref=7546145e26e4feecf0994d84e888d7da9c47424b": 7171,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Funit-name.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b": 18460,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fcgroup.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b": 89332,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibudev%2Flibudev-private.h?ref=7546145e26e4feecf0994d84e888d7da9c47424b": 7366,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibudev%2Flibudev-util.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b": 8128,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftest%2Ftest-string-util.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b": 13284,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fudev-rules.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b": 108723,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fudevadm-test-builtin.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b": 3508,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fudevadm-test.c?ref=7546145e26e4feecf0994d84e888d7da9c47424b": 5829
+  },
+  "total_size": 283012
+}

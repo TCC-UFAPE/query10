@@ -1,0 +1,12 @@
+{
+  "commit": "3e3d8f7857a7a59d62cc5bd1e4e792dc4d0f40b3",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-dhcp%2Fdhcp-client.c?ref=3e3d8f7857a7a59d62cc5bd1e4e792dc4d0f40b3",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-dhcp-client.h?ref=3e3d8f7857a7a59d62cc5bd1e4e792dc4d0f40b3"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-dhcp%2Fdhcp-client.c?ref=3e3d8f7857a7a59d62cc5bd1e4e792dc4d0f40b3": 22049,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-dhcp-client.h?ref=3e3d8f7857a7a59d62cc5bd1e4e792dc4d0f40b3": 1719
+  },
+  "total_size": 23768
+}

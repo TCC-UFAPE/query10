@@ -1,0 +1,32 @@
+{
+  "commit": "eef65bf3ee6f73afa4a5de23ae3a794a279f30c0",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/Makefile.am?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0",
+    "https://api.github.com/repos/systemd/systemd/contents/configure.ac?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0",
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.exec.xml?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fbuild.h?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fdbus-execute.c?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fexecute.c?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fexecute.h?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment-gperf.gperf.m4?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.c?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.h?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fexit-status.c?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fexit-status.h?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/Makefile.am?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0": 123641,
+    "https://api.github.com/repos/systemd/systemd/contents/configure.ac?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0": 48693,
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.exec.xml?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0": 78067,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fbuild.h?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0": 2308,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fdbus-execute.c?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0": 28163,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fexecute.c?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0": 84102,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fexecute.h?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0": 6947,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment-gperf.gperf.m4?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0": 31519,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.c?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0": 99298,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.h?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0": 13975,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fexit-status.c?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0": 6076,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fexit-status.h?ref=eef65bf3ee6f73afa4a5de23ae3a794a279f30c0": 2995
+  },
+  "total_size": 525784
+}

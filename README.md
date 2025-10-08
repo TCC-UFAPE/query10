@@ -78,14 +78,27 @@ pip install requests pandas openpyxl
 ```
 
 ### GitHub Token
-O script requer um token de acesso pessoal do GitHub para acessar a API:
+O script usa a variável de ambiente `GITHUB_TOKEN` para autenticar as requisições ao GitHub (não é necessário editar o arquivo fonte).
 
 1. Acesse: https://github.com/settings/tokens
-2. Gere um token com permissões de leitura de repositórios públicos
-3. Configure no arquivo `query10.py`:
-   ```python
-   GITHUB_TOKEN = "seu_token_aqui"
-   ```
+2. Gere um token com permissões de leitura de repositórios públicos (repo: public_repo ou apenas public access)
+3. Configure a variável de ambiente:
+
+Windows (PowerShell):
+```powershell
+setx GITHUB_TOKEN "seu_token_aqui"
+# Feche e reabra o terminal para que a variável entre em vigor
+```
+
+Linux/macOS:
+```bash
+export GITHUB_TOKEN="seu_token_aqui"
+```
+
+Depois de configurada, rode o script normalmente:
+```bash
+python query10.py
+```
 
 **Rate Limits:**
 - Sem token: 60 requisições/hora

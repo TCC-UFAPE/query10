@@ -1,0 +1,12 @@
+{
+  "commit": "63bb64a056113d4be5fefb16604accf08c8c204a",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.exec.xml?ref=63bb64a056113d4be5fefb16604accf08c8c204a",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Funit.c?ref=63bb64a056113d4be5fefb16604accf08c8c204a"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.exec.xml?ref=63bb64a056113d4be5fefb16604accf08c8c204a": 99748,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Funit.c?ref=63bb64a056113d4be5fefb16604accf08c8c204a": 130993
+  },
+  "total_size": 230741
+}

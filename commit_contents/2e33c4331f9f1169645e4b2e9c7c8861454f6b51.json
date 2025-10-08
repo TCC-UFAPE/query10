@@ -1,0 +1,16 @@
+{
+  "commit": "2e33c4331f9f1169645e4b2e9c7c8861454f6b51",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Finstall.c?ref=2e33c4331f9f1169645e4b2e9c7c8861454f6b51",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fmain.c?ref=2e33c4331f9f1169645e4b2e9c7c8861454f6b51",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fnotify.c?ref=2e33c4331f9f1169645e4b2e9c7c8861454f6b51",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemctl.c?ref=2e33c4331f9f1169645e4b2e9c7c8861454f6b51"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Finstall.c?ref=2e33c4331f9f1169645e4b2e9c7c8861454f6b51": 15838,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fmain.c?ref=2e33c4331f9f1169645e4b2e9c7c8861454f6b51": 29473,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fnotify.c?ref=2e33c4331f9f1169645e4b2e9c7c8861454f6b51": 5440,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemctl.c?ref=2e33c4331f9f1169645e4b2e9c7c8861454f6b51": 77361
+  },
+  "total_size": 128112
+}

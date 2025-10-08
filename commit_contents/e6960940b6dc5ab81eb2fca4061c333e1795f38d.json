@@ -1,0 +1,26 @@
+{
+  "commit": "e6960940b6dc5ab81eb2fca4061c333e1795f38d",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/Makefile.am?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fconf-parser.c?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fconf-parser.h?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2F.gitignore?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2Fjournald-gperf.gperf?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2Fjournald.c?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2Fjournald.h?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2Fsystemd-journald.conf?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flogin%2Flogind.c?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/Makefile.am?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d": 62667,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fconf-parser.c?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d": 19571,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fconf-parser.h?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d": 7795,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2F.gitignore?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d": 41,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2Fjournald-gperf.gperf?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d": 1357,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2Fjournald.c?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d": 60398,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2Fjournald.h?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d": 1923,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2Fsystemd-journald.conf?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d": 542,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flogin%2Flogind.c?ref=e6960940b6dc5ab81eb2fca4061c333e1795f38d": 32899
+  },
+  "total_size": 187193
+}

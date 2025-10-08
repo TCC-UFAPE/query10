@@ -1,0 +1,12 @@
+{
+  "commit": "abc08d4d08006fa19dec645859f81af9f227339e",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.c?ref=abc08d4d08006fa19dec645859f81af9f227339e",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal-remote%2Fjournal-remote.c?ref=abc08d4d08006fa19dec645859f81af9f227339e"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.c?ref=abc08d4d08006fa19dec645859f81af9f227339e": 120380,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal-remote%2Fjournal-remote.c?ref=abc08d4d08006fa19dec645859f81af9f227339e": 52978
+  },
+  "total_size": 173358
+}

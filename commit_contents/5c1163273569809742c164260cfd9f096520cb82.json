@@ -1,0 +1,12 @@
+{
+  "commit": "5c1163273569809742c164260cfd9f096520cb82",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Frules%2Fmeson.build?ref=5c1163273569809742c164260cfd9f096520cb82",
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsd_bus_enqueue_for_read.xml?ref=5c1163273569809742c164260cfd9f096520cb82"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Frules%2Fmeson.build?ref=5c1163273569809742c164260cfd9f096520cb82": 29732,
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsd_bus_enqueue_for_read.xml?ref=5c1163273569809742c164260cfd9f096520cb82": 3215
+  },
+  "total_size": 32947
+}

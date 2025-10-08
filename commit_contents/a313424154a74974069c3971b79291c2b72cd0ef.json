@@ -1,0 +1,10 @@
+{
+  "commit": "a313424154a74974069c3971b79291c2b72cd0ef",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/NEWS?ref=a313424154a74974069c3971b79291c2b72cd0ef"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/NEWS?ref=a313424154a74974069c3971b79291c2b72cd0ef": 500068
+  },
+  "total_size": 500068
+}

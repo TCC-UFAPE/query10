@@ -1,0 +1,24 @@
+{
+  "commit": "a39f92d391ac1ce06b3618874ff4211ecb11f549",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/configure.ac?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549",
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.link.xml?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fmissing.h?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Fethtool-util.c?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Fethtool-util.h?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Flink-config-gperf.gperf?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Flink-config.c?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Flink-config.h?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/configure.ac?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549": 70964,
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.link.xml?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549": 20065,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fmissing.h?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549": 25397,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Fethtool-util.c?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549": 16880,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Fethtool-util.h?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549": 2886,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Flink-config-gperf.gperf?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549": 3587,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Flink-config.c?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549": 17463,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Flink-config.h?ref=a39f92d391ac1ce06b3618874ff4211ecb11f549": 3313
+  },
+  "total_size": 160555
+}

@@ -1,3 +1,4 @@
+import os
 import requests
 import pandas as pd
 import time
@@ -5,7 +6,41 @@ import re
 
 BASE_URL = "https://vulnerabilityhistory.org/api"
 GITHUB_API_BASE = "https://api.github.com"
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = "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"
+
+def get_github_headers():
+    headers = {
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'vuln-history-script/1.0'
+    }
+    if GITHUB_TOKEN:
+        headers['Authorization'] = f'token {GITHUB_TOKEN}'
+    return headers
+
+
+def request_with_retries(session, method, url, headers=None, timeout=30, max_retries=3, backoff_factor=0.5):
+    """Faz uma requisição com retries exponenciais simples em erros de rede e 5xx.
+    Retorna o objeto Response ou lança requests.exceptions.RequestException.
+    """
+    attempt = 0
+    while True:
+        try:
+            resp = session.request(method, url, headers=headers, timeout=timeout)
+            # Se for 5xx, considerar retry
+            if 500 <= resp.status_code < 600 and attempt < max_retries:
+                attempt += 1
+                sleep_time = backoff_factor * (2 ** (attempt - 1))
+                time.sleep(sleep_time)
+                continue
+            return resp
+        except requests.exceptions.RequestException:
+            if attempt >= max_retries:
+                raise
+            attempt += 1
+            sleep_time = backoff_factor * (2 ** (attempt - 1))
+            time.sleep(sleep_time)
+            continue
+
 
 def get_all_data():
     print("Iniciando busca de dados da API (isso pode levar um momento)...")
@@ -55,93 +90,7 @@ def get_all_data():
     except requests.exceptions.RequestException as e:
         print(f"\n--- ERRO FATAL AO BUSCAR DADOS DA API: {e} ---")
         return None, None, None
-
-def run_task_1_and_2(vulnerabilities):
-    print("\n--- Iniciando Tarefa 1 & 2: Contagem de Vulnerabilidades por Projeto ---")
     
-    project_counts = {}
-    for vuln in vulnerabilities:
-        project_name = vuln.get('project_name', 'N/A')
-        
-        if project_name not in project_counts:
-            project_counts[project_name] = {
-                'Projeto': project_name,
-                'Vulnerabilidades Totais Documentadas': 0,
-                'Vulnerabilidades Curadas': 0
-            }
-        
-        project_counts[project_name]['Vulnerabilidades Totais Documentadas'] += 1
-        
-        if vuln.get('description'):
-            project_counts[project_name]['Vulnerabilidades Curadas'] += 1
-            
-    df = pd.DataFrame(list(project_counts.values()))
-    filename = "1_2_vulnerabilidades_por_projeto.xlsx"
-    df.to_excel(filename, index=False)
-    print(f"-> Sucesso! Arquivo '{filename}' gerado.")
-
-def run_task_3_and_4(vulnerabilities, tags_map):
-    print("\n--- Iniciando Tarefa 3 & 4: Vulnerabilidades por Tipo e por Lição ---")
-
-    types_by_project = {}
-    lessons_by_project = {}
-
-    for vuln in vulnerabilities:
-        project_name = vuln.get('project_name', 'N/A')
-        
-        if project_name not in types_by_project:
-            types_by_project[project_name] = {}
-        if project_name not in lessons_by_project:
-            lessons_by_project[project_name] = {}
-            
-        tag_ids = [str(tag['id']) for tag in vuln.get('tag_json', [])]
-        
-        for tag_id in tag_ids:
-            tag_info = tags_map.get(tag_id)
-            if tag_info:
-                tag_name = tag_info.get('name', 'Tag Desconhecida')
-                
-                types_by_project[project_name][tag_name] = types_by_project[project_name].get(tag_name, 0) + 1
-                
-                if tag_name.startswith('Lesson:'):
-                    lesson_name = tag_name.replace('Lesson: ', '').strip()
-                    lessons_by_project[project_name][lesson_name] = lessons_by_project[project_name].get(lesson_name, 0) + 1
-
-    df_types = pd.DataFrame.from_dict(types_by_project, orient='index').fillna(0).astype(int)
-    df_types = df_types.rename_axis('Projeto').reset_index()
-    filename_types = "3_vulnerabilidades_por_tipo.xlsx"
-    df_types.to_excel(filename_types, index=False)
-    print(f"-> Sucesso! Arquivo '{filename_types}' gerado.")
-    
-    df_lessons = pd.DataFrame.from_dict(lessons_by_project, orient='index').fillna(0).astype(int)
-    df_lessons = df_lessons.rename_axis('Projeto').reset_index()
-    filename_lessons = "4_vulnerabilidades_por_licao.xlsx"
-    df_lessons.to_excel(filename_lessons, index=False)
-    print(f"-> Sucesso! Arquivo '{filename_lessons}' gerado.")
-
-def run_task_5_text_analysis(corpus_data):
-    print("\n--- Iniciando Tarefa 5: Análise de Texto da Documentação ---")
-    
-    text_data = []
-    for item in corpus_data:
-        description = item.get('description', '') or ''
-        mistakes = item.get('mistakes', '') or ''
-        
-        full_text = (description.strip() + " " + mistakes.strip()).strip()
-        
-        if full_text:
-            text_data.append({
-                'Projeto': item.get('project_name', 'N/A'),
-                'CVE': item.get('cve', 'N/A'),
-                'Caracteres Totais': len(full_text),
-                'Palavras Totais (Tokens)': len(full_text.split())
-            })
-            
-    df = pd.DataFrame(text_data)
-    filename = "5_analise_texto_documentacao.xlsx"
-    df.to_excel(filename, index=False)
-    print(f"-> Sucesso! Arquivo '{filename}' gerado.")
-
 def get_commit_hashes_from_vulnerabilities(vulnerabilities, session):
     """Extrai todas as hashes de commits das vulnerabilidades através dos eventos"""
     print("\n--- Extraindo hashes de commits das vulnerabilidades ---")
@@ -176,7 +125,6 @@ def get_commit_hashes_from_vulnerabilities(vulnerabilities, session):
                         commit_hash = commit_match.group(1)
                         commit_hashes.add(commit_hash)
                         
-                        # Debug: contar tamanhos
                         hash_len = len(commit_hash)
                         hash_lengths[hash_len] = hash_lengths.get(hash_len, 0) + 1
                         
@@ -184,7 +132,6 @@ def get_commit_hashes_from_vulnerabilities(vulnerabilities, session):
                             vuln_to_commits[cve] = {'project': project_name, 'commits': []}
                         vuln_to_commits[cve]['commits'].append(commit_hash)
             
-            # Pausa pequena para não sobrecarregar a API
             if (idx + 1) % 20 == 0:
                 time.sleep(0.3)
                 
@@ -200,10 +147,7 @@ def get_commit_hashes_from_vulnerabilities(vulnerabilities, session):
 def get_github_commit_data(repo_full_name, commit_hash, session, debug=False):
     """Busca dados completos do commit no GitHub via API REST"""
     try:
-        headers = {
-            'Accept': 'application/vnd.github.v3+json',
-            'Authorization': f'token {GITHUB_TOKEN}'
-        }
+        headers = get_github_headers()
         
         url = f"{GITHUB_API_BASE}/repos/{repo_full_name}/commits/{commit_hash}"
         
@@ -213,14 +157,21 @@ def get_github_commit_data(repo_full_name, commit_hash, session, debug=False):
             print(f"   Repo: {repo_full_name}")
             print(f"   Hash: {commit_hash}")
         
-        response = session.get(url, headers=headers, timeout=30)
-        
-        # Verificar rate limit
+        response = request_with_retries(session, 'GET', url, headers=headers, timeout=30)
+
         remaining = response.headers.get('X-RateLimit-Remaining', 'N/A')
         
         if debug:
             print(f"   Status: {response.status_code}")
             print(f"   Rate Limit: {remaining}")
+
+        if response.status_code == 401:
+            # Token inválido/expirado ou formato inválido
+            if GITHUB_TOKEN:
+                print("   [ERRO] 401 Unauthorized: o token do GitHub parece inválido ou expirado. Verifique a variável de ambiente GITHUB_TOKEN.")
+            else:
+                print("   [ERRO] 401 Unauthorized: requisição sem token. Tente exportar GITHUB_TOKEN para aumentar limites/evitar bloqueios.")
+            return None
         
         if response.status_code == 404:
             # Commit não encontrado - comum para commits antigos ou repositórios migrados
@@ -228,27 +179,28 @@ def get_github_commit_data(repo_full_name, commit_hash, session, debug=False):
                 print(f"   Erro: Commit não encontrado (404)")
             return None
         elif response.status_code == 403:
-            print(f"   [AVISO] Rate limit atingido. Restantes: {remaining}")
+            # Pode ser rate limit ou acesso proibido
+            print(f"   [AVISO] 403 Forbidden ou rate limit. Restantes: {remaining}. Se estiver autenticado, verifique escopos do token.")
             return None
         elif response.status_code == 422:
             # Commit hash inválido
             if debug:
                 print(f"   Erro: Hash inválido (422)")
             return None
-        
+
         response.raise_for_status()
         data = response.json()
-        
+
         # Verificar se o retorno tem a estrutura esperada
         if 'commit' not in data:
             print(f"   [AVISO] Resposta inesperada para {commit_hash[:8]}: falta campo 'commit'")
             return None
-        
+
         if debug:
             print(f"   ✓ Sucesso! Arquivos: {len(data.get('files', []))}")
-            
+
         return data
-        
+
     except requests.exceptions.Timeout:
         print(f"   [AVISO] Timeout ao buscar commit {commit_hash[:8]}")
         return None
@@ -273,10 +225,7 @@ def count_tokens_from_github_commit(commit_data, session):
     total_files = len(files)
     file_details = []  # Lista para armazenar detalhes dos arquivos
     
-    headers = {
-        'Accept': 'application/vnd.github.v3+json',
-        'Authorization': f'token {GITHUB_TOKEN}'
-    }
+    headers = get_github_headers()
     
     for file_info in files:
         # Extrair informações que já vêm na resposta do commit
@@ -292,7 +241,7 @@ def count_tokens_from_github_commit(commit_data, session):
         
         if contents_url:
             try:
-                contents_response = session.get(contents_url, headers=headers, timeout=10)
+                contents_response = request_with_retries(session, 'GET', contents_url, headers=headers, timeout=10)
                 if contents_response.status_code == 200:
                     contents_data = contents_response.json()
                     file_size = contents_data.get('size', 0)
@@ -324,6 +273,59 @@ def count_tokens_from_github_commit(commit_data, session):
                     total_tokens += len(words)
     
     return total_additions, total_deletions, total_tokens, total_files, file_details
+
+
+def fetch_contents_sizes_from_commit(commit_data, session, save_path=None):
+    """Percorre commit_data['files'], coleta os valores de contents_url, faz GET em cada
+    contents_url usando a mesma estratégia de headers e retries, e contabiliza o campo `size`.
+
+    Args:
+        commit_data (dict): JSON retornado pela API de commit do GitHub.
+        session (requests.Session): sessão para realizar as requisições.
+        save_path (str|None): caminho opcional para salvar um JSON com o mapeamento {contents_url: size}.
+
+    Returns:
+        tuple: (list_of_urls, mapping_url_to_size, total_size_bytes)
+    """
+    if not commit_data:
+        return [], {}, 0
+
+    files = commit_data.get('files', [])
+    headers = get_github_headers()
+
+    urls = []
+    sizes = {}
+    total = 0
+
+    for f in files:
+        url = f.get('contents_url')
+        if not url:
+            continue
+        urls.append(url)
+        try:
+            resp = request_with_retries(session, 'GET', url, headers=headers, timeout=10)
+            if resp.status_code == 200:
+                data = resp.json()
+                size = data.get('size', 0) if isinstance(data, dict) else 0
+            else:
+                size = 0
+        except Exception:
+            size = 0
+
+        sizes[url] = size
+        total += size
+        # pequena pausa para não sobrecarregar
+        time.sleep(0.05)
+
+    if save_path:
+        try:
+            import json
+            with open(save_path, 'w', encoding='utf-8') as fh:
+                json.dump({'urls': urls, 'sizes': sizes, 'total': total}, fh, indent=2)
+        except Exception:
+            pass
+
+    return urls, sizes, total
 
 def run_task_6_commit_analysis(vulnerabilities, project_to_repo):
     print("\n--- Iniciando Tarefa 6: Análise de Tokens dos Commits via API do GitHub ---")
@@ -374,22 +376,36 @@ def run_task_6_commit_analysis(vulnerabilities, project_to_repo):
         
         # Obter repositório GitHub do projeto
         repo_full_name = project_to_repo.get(project_related)
-        
+
         if not repo_full_name:
             commits_sem_repo += 1
+            # Mostrar exemplo breve nos primeiros commits para debug local
             if idx < 3:
                 print(f"   [DEBUG] Commit {idx+1}: Projeto '{project_related}' sem repositório mapeado")
             continue
-        
-        # Debug nos primeiros 3 commits
-        debug_mode = (idx < 3)
-        
-        # Buscar dados do commit no GitHub
-        github_commit = get_github_commit_data(repo_full_name, commit_hash, session, debug=debug_mode)
+
+        # Buscar dados do commit no GitHub (processar todos sem modo debug)
+        github_commit = get_github_commit_data(repo_full_name, commit_hash, session, debug=False)
         
         if github_commit and 'commit' in github_commit:
             # Contar tokens do diff e obter detalhes dos arquivos (incluindo tamanho via contents_url)
             additions, deletions, tokens, total_files, file_details = count_tokens_from_github_commit(github_commit, session)
+
+            # Buscar sizes reais via contents_url e salvar mapeamento em JSON
+            try:
+                import os, json
+                os.makedirs('commit_contents', exist_ok=True)
+                urls, sizes_map, total_size_via_contents = fetch_contents_sizes_from_commit(github_commit, session)
+                # salvar em commit_contents/{hash}.json
+                with open(os.path.join('commit_contents', f"{commit_hash}.json"), 'w', encoding='utf-8') as fh:
+                    json.dump({
+                        'commit': commit_hash,
+                        'urls': urls,
+                        'sizes': sizes_map,
+                        'total_size': total_size_via_contents
+                    }, fh, indent=2)
+            except Exception:
+                total_size_via_contents = sum(f['size'] for f in file_details)
             
             # Obter informações do commit
             commit_info = github_commit.get('commit', {})
@@ -397,8 +413,8 @@ def run_task_6_commit_analysis(vulnerabilities, project_to_repo):
             author_info = commit_info.get('author', {})
             date = author_info.get('date', 'N/A')
             
-            # Calcular tamanho total dos arquivos
-            total_file_size = sum(f['size'] for f in file_details)
+            # Calcular tamanho total dos arquivos (usar o valor via contents_url quando disponível)
+            total_file_size = total_size_via_contents if 'total_size_via_contents' in locals() else sum(f['size'] for f in file_details)
             
             # Formatar detalhes dos arquivos com tamanho
             files_summary = ', '.join([
@@ -474,17 +490,16 @@ def run_task_6_commit_analysis(vulnerabilities, project_to_repo):
 
 
 if __name__ == "__main__":
-    all_vulnerabilities, all_tags_map, project_to_repo = get_all_data()
-    
-    if all_vulnerabilities and all_tags_map:
-        # run_task_1_and_2(all_vulnerabilities)
-        # time.sleep(1)
-        # run_task_3_and_4(all_vulnerabilities, all_tags_map)
-        # time.sleep(1)
-        # run_task_5_text_analysis(all_vulnerabilities)
-        time.sleep(1)
-        run_task_6_commit_analysis(all_vulnerabilities, project_to_repo)
-        
-        print("\n[SUCESSO] Todas as tarefas foram concluidas!")
+    if not GITHUB_TOKEN:
+        print("\n[ERRO] Variável de ambiente GITHUB_TOKEN não definida!")
+        print("   O script precisa de um token para acessar a API do GitHub com limites maiores.")
+        print("   Defina a variável e tente novamente.")
     else:
-        print("\n[ERRO] Nao foi possivel obter os dados da API. O script nao pode continuar.")
+        print("Token do GitHub encontrado. Iniciando script...")
+        all_vulnerabilities, all_tags_map, project_to_repo = get_all_data()
+    
+        if all_vulnerabilities and all_tags_map:
+            run_task_6_commit_analysis(all_vulnerabilities, project_to_repo)
+            print("\n[SUCESSO] Todas as tarefas foram concluídas!")
+        else:
+            print("\n[ERRO] Não foi possível obter os dados da API. O script não pode continuar.")

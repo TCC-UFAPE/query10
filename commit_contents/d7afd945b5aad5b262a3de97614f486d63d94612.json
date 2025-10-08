@@ -1,0 +1,20 @@
+{
+  "commit": "d7afd945b5aad5b262a3de97614f486d63d94612",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fnetwork%2Fnetworkd-manager.c?ref=d7afd945b5aad5b262a3de97614f486d63d94612",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fnetwork%2Fnetworkd-manager.h?ref=d7afd945b5aad5b262a3de97614f486d63d94612",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-bus.c?ref=d7afd945b5aad5b262a3de97614f486d63d94612",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fbus-util.c?ref=d7afd945b5aad5b262a3de97614f486d63d94612",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fbus-util.h?ref=d7afd945b5aad5b262a3de97614f486d63d94612",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-bus.h?ref=d7afd945b5aad5b262a3de97614f486d63d94612"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fnetwork%2Fnetworkd-manager.c?ref=d7afd945b5aad5b262a3de97614f486d63d94612": 54683,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fnetwork%2Fnetworkd-manager.h?ref=d7afd945b5aad5b262a3de97614f486d63d94612": 3423,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-bus.c?ref=d7afd945b5aad5b262a3de97614f486d63d94612": 65779,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fbus-util.c?ref=d7afd945b5aad5b262a3de97614f486d63d94612": 50409,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fbus-util.h?ref=d7afd945b5aad5b262a3de97614f486d63d94612": 8179,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-bus.h?ref=d7afd945b5aad5b262a3de97614f486d63d94612": 26095
+  },
+  "total_size": 208568
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "c5419d4239ceb4c3bd0263a0a810cf24a072b3c0",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fservice.c?ref=c5419d4239ceb4c3bd0263a0a810cf24a072b3c0"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fservice.c?ref=c5419d4239ceb4c3bd0263a0a810cf24a072b3c0": 120932
+  },
+  "total_size": 120932
+}

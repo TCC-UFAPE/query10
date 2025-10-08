@@ -1,0 +1,10 @@
+{
+  "commit": "042d7f5065c9c19b3f96804f9403b14d910e46d1",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fvconsole%2Fvconsole-setup.c?ref=042d7f5065c9c19b3f96804f9403b14d910e46d1"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fvconsole%2Fvconsole-setup.c?ref=042d7f5065c9c19b3f96804f9403b14d910e46d1": 9565
+  },
+  "total_size": 9565
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "34959677900a45aa67f511e828c68167f8a7c816",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fmanager.c?ref=34959677900a45aa67f511e828c68167f8a7c816",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fservice.c?ref=34959677900a45aa67f511e828c68167f8a7c816"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fmanager.c?ref=34959677900a45aa67f511e828c68167f8a7c816": 103407,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fservice.c?ref=34959677900a45aa67f511e828c68167f8a7c816": 113039
+  },
+  "total_size": 216446
+}

@@ -1,0 +1,10 @@
+{
+  "commit": "a8d8878329893d19106053e5008f0075f149aa16",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftmpfiles.c?ref=a8d8878329893d19106053e5008f0075f149aa16"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftmpfiles.c?ref=a8d8878329893d19106053e5008f0075f149aa16": 31166
+  },
+  "total_size": 31166
+}

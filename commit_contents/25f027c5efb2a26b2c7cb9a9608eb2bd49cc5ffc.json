@@ -1,0 +1,32 @@
+{
+  "commit": "25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fselinux-util.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fcgroup.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fmain.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-network%2Fsd-dhcp-client.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-device%2Fdevice-enumerator.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-device%2Fsd-device.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibudev%2Flibudev-monitor.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Finstall.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fstdio-bridge%2Fstdio-bridge.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftest%2Ftest-nss.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftmpfiles%2Ftmpfiles.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fudev-rules.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fselinux-util.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc": 12606,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fcgroup.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc": 79156,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fmain.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc": 93353,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-network%2Fsd-dhcp-client.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc": 65961,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-device%2Fdevice-enumerator.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc": 29480,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-device%2Fsd-device.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc": 55416,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibudev%2Flibudev-monitor.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc": 29620,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Finstall.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc": 101871,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fstdio-bridge%2Fstdio-bridge.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc": 9180,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftest%2Ftest-nss.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc": 20105,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftmpfiles%2Ftmpfiles.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc": 80452,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fudev-rules.c?ref=25f027c5efb2a26b2c7cb9a9608eb2bd49cc5ffc": 109956
+  },
+  "total_size": 687156
+}

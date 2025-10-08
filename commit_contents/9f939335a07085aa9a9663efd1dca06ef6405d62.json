@@ -1,0 +1,10 @@
+{
+  "commit": "9f939335a07085aa9a9663efd1dca06ef6405d62",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-dns-packet.c?ref=9f939335a07085aa9a9663efd1dca06ef6405d62"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-dns-packet.c?ref=9f939335a07085aa9a9663efd1dca06ef6405d62": 72364
+  },
+  "total_size": 72364
+}

@@ -1,0 +1,12 @@
+{
+  "commit": "d5dd44b01c225f20166f2e004e41f72c3ea95b5a",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fmissing.h?ref=d5dd44b01c225f20166f2e004e41f72c3ea95b5a",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flogin%2Flogind-button.c?ref=d5dd44b01c225f20166f2e004e41f72c3ea95b5a"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fmissing.h?ref=d5dd44b01c225f20166f2e004e41f72c3ea95b5a": 28095,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flogin%2Flogind-button.c?ref=d5dd44b01c225f20166f2e004e41f72c3ea95b5a": 11141
+  },
+  "total_size": 39236
+}

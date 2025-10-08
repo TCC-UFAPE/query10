@@ -1,0 +1,16 @@
+{
+  "commit": "7adc46fcce257fcf4c83faa18b8c78f2a577e4f1",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-internal.h?ref=7adc46fcce257fcf4c83faa18b8c78f2a577e4f1",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-kernel.c?ref=7adc46fcce257fcf4c83faa18b8c78f2a577e4f1",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-socket.c?ref=7adc46fcce257fcf4c83faa18b8c78f2a577e4f1",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fsd-bus.c?ref=7adc46fcce257fcf4c83faa18b8c78f2a577e4f1"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-internal.h?ref=7adc46fcce257fcf4c83faa18b8c78f2a577e4f1": 8417,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-kernel.c?ref=7adc46fcce257fcf4c83faa18b8c78f2a577e4f1": 32805,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-socket.c?ref=7adc46fcce257fcf4c83faa18b8c78f2a577e4f1": 33749,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fsd-bus.c?ref=7adc46fcce257fcf4c83faa18b8c78f2a577e4f1": 78365
+  },
+  "total_size": 153336
+}

@@ -1,0 +1,14 @@
+{
+  "commit": "77019691cf629ee8ada94a9a9a1ddd286bbd24f4",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fdbus-util.c?ref=77019691cf629ee8ada94a9a9a1ddd286bbd24f4",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fdbus-util.h?ref=77019691cf629ee8ada94a9a9a1ddd286bbd24f4",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fmeson.build?ref=77019691cf629ee8ada94a9a9a1ddd286bbd24f4"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fdbus-util.c?ref=77019691cf629ee8ada94a9a9a1ddd286bbd24f4": 3367,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fdbus-util.h?ref=77019691cf629ee8ada94a9a9a1ddd286bbd24f4": 19150,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fmeson.build?ref=77019691cf629ee8ada94a9a9a1ddd286bbd24f4": 6848
+  },
+  "total_size": 29365
+}

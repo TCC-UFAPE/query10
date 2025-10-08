@@ -1,0 +1,14 @@
+{
+  "commit": "c83f349c5fd04c469e8227117b9cde6931c80ba5",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fterminal-util.c?ref=c83f349c5fd04c469e8227117b9cde6931c80ba5",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fterminal-util.h?ref=c83f349c5fd04c469e8227117b9cde6931c80ba5",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flogin%2Flogind-session.c?ref=c83f349c5fd04c469e8227117b9cde6931c80ba5"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fterminal-util.c?ref=c83f349c5fd04c469e8227117b9cde6931c80ba5": 33816,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fterminal-util.h?ref=c83f349c5fd04c469e8227117b9cde6931c80ba5": 4366,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flogin%2Flogind-session.c?ref=c83f349c5fd04c469e8227117b9cde6931c80ba5": 37951
+  },
+  "total_size": 76133
+}

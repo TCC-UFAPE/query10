@@ -1,0 +1,12 @@
+{
+  "commit": "d4e9eb91ea12e11bff7d8c6265b067a20ccf37b8",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Ftmpfiles.d.xml?ref=d4e9eb91ea12e11bff7d8c6265b067a20ccf37b8",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftmpfiles%2Ftmpfiles.c?ref=d4e9eb91ea12e11bff7d8c6265b067a20ccf37b8"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Ftmpfiles.d.xml?ref=d4e9eb91ea12e11bff7d8c6265b067a20ccf37b8": 16030,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftmpfiles%2Ftmpfiles.c?ref=d4e9eb91ea12e11bff7d8c6265b067a20ccf37b8": 40549
+  },
+  "total_size": 56579
+}

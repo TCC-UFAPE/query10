@@ -1,0 +1,20 @@
+{
+  "commit": "caa829849d6ac9f6e173f585f732054358311ae1",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-internal.h?ref=caa829849d6ac9f6e173f585f732054358311ae1",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-match.c?ref=caa829849d6ac9f6e173f585f732054358311ae1",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-objects.c?ref=caa829849d6ac9f6e173f585f732054358311ae1",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-slot.c?ref=caa829849d6ac9f6e173f585f732054358311ae1",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fsd-bus.c?ref=caa829849d6ac9f6e173f585f732054358311ae1",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-bus.h?ref=caa829849d6ac9f6e173f585f732054358311ae1"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-internal.h?ref=caa829849d6ac9f6e173f585f732054358311ae1": 10415,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-match.c?ref=caa829849d6ac9f6e173f585f732054358311ae1": 34260,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-objects.c?ref=caa829849d6ac9f6e173f585f732054358311ae1": 74233,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-slot.c?ref=caa829849d6ac9f6e173f585f732054358311ae1": 8014,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fsd-bus.c?ref=caa829849d6ac9f6e173f585f732054358311ae1": 96173,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-bus.h?ref=caa829849d6ac9f6e173f585f732054358311ae1": 20391
+  },
+  "total_size": 243486
+}

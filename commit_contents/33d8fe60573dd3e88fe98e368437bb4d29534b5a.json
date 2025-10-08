@@ -1,0 +1,10 @@
+{
+  "commit": "33d8fe60573dd3e88fe98e368437bb4d29534b5a",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-internal.h?ref=33d8fe60573dd3e88fe98e368437bb4d29534b5a"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-internal.h?ref=33d8fe60573dd3e88fe98e368437bb4d29534b5a": 11526
+  },
+  "total_size": 11526
+}

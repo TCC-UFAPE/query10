@@ -1,0 +1,14 @@
+{
+  "commit": "b02cb41c78c61c27bf1432e19f241a3c3d47a419",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment-gperf.gperf.m4?ref=b02cb41c78c61c27bf1432e19f241a3c3d47a419",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.c?ref=b02cb41c78c61c27bf1432e19f241a3c3d47a419",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.h?ref=b02cb41c78c61c27bf1432e19f241a3c3d47a419"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment-gperf.gperf.m4?ref=b02cb41c78c61c27bf1432e19f241a3c3d47a419": 39573,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.c?ref=b02cb41c78c61c27bf1432e19f241a3c3d47a419": 121060,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fload-fragment.h?ref=b02cb41c78c61c27bf1432e19f241a3c3d47a419": 17066
+  },
+  "total_size": 177699
+}

@@ -1,0 +1,28 @@
+{
+  "commit": "2b4a65b66813b01aa56e6f11643017d3fef55b06",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbusctl%2Fbusctl.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ffuzz%2Ffuzz-bus-message.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Flibsystemd.sym?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-dump.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-dump.h?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Ftest-bus-chat.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Ftest-bus-gvariant.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Ftest-bus-marshal.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Ftest-bus-objects.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-bus.h?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbusctl%2Fbusctl.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06": 90288,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ffuzz%2Ffuzz-bus-message.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06": 1391,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Flibsystemd.sym?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06": 19983,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-dump.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06": 21732,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Fbus-dump.h?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06": 294,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Ftest-bus-chat.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06": 17744,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Ftest-bus-gvariant.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06": 9379,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Ftest-bus-marshal.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06": 15068,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd%2Fsd-bus%2Ftest-bus-objects.c?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06": 18890,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-bus.h?ref=2b4a65b66813b01aa56e6f11643017d3fef55b06": 28142
+  },
+  "total_size": 222911
+}

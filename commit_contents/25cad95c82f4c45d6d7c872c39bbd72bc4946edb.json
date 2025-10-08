@@ -1,0 +1,12 @@
+{
+  "commit": "25cad95c82f4c45d6d7c872c39bbd72bc4946edb",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fjournal-importer.h?ref=25cad95c82f4c45d6d7c872c39bbd72bc4946edb",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcoredump%2Fcoredump.c?ref=25cad95c82f4c45d6d7c872c39bbd72bc4946edb"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Fjournal-importer.h?ref=25cad95c82f4c45d6d7c872c39bbd72bc4946edb": 1798,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcoredump%2Fcoredump.c?ref=25cad95c82f4c45d6d7c872c39bbd72bc4946edb": 51288
+  },
+  "total_size": 53086
+}

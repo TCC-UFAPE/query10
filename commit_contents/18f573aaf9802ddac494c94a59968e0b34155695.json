@@ -1,0 +1,16 @@
+{
+  "commit": "18f573aaf9802ddac494c94a59968e0b34155695",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fmount.c?ref=18f573aaf9802ddac494c94a59968e0b34155695",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fservice.c?ref=18f573aaf9802ddac494c94a59968e0b34155695",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fsocket.c?ref=18f573aaf9802ddac494c94a59968e0b34155695",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fswap.c?ref=18f573aaf9802ddac494c94a59968e0b34155695"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fmount.c?ref=18f573aaf9802ddac494c94a59968e0b34155695": 65017,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fservice.c?ref=18f573aaf9802ddac494c94a59968e0b34155695": 136710,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fsocket.c?ref=18f573aaf9802ddac494c94a59968e0b34155695": 101751,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Fswap.c?ref=18f573aaf9802ddac494c94a59968e0b34155695": 46525
+  },
+  "total_size": 350003
+}

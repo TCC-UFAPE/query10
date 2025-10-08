@@ -1,0 +1,12 @@
+{
+  "commit": "7445db6eb70e8d5989f481d0c5a08ace7047ae5b",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/docs%2FTRANSIENT-SETTINGS.md?ref=7445db6eb70e8d5989f481d0c5a08ace7047ae5b",
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.exec.xml?ref=7445db6eb70e8d5989f481d0c5a08ace7047ae5b"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/docs%2FTRANSIENT-SETTINGS.md?ref=7445db6eb70e8d5989f481d0c5a08ace7047ae5b": 9244,
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.exec.xml?ref=7445db6eb70e8d5989f481d0c5a08ace7047ae5b": 195709
+  },
+  "total_size": 204953
+}

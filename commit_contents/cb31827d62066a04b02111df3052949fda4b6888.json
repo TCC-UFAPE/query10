@@ -1,0 +1,10 @@
+{
+  "commit": "cb31827d62066a04b02111df3052949fda4b6888",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fnss-mymachines%2Fnss-mymachines.c?ref=cb31827d62066a04b02111df3052949fda4b6888"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fnss-mymachines%2Fnss-mymachines.c?ref=cb31827d62066a04b02111df3052949fda4b6888": 20331
+  },
+  "total_size": 20331
+}

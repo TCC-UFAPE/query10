@@ -1,0 +1,36 @@
+{
+  "commit": "4310bfc20b84127e19bed68701caa3820c844682",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fresolved.conf.xml?ref=4310bfc20b84127e19bed68701caa3820c844682",
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.network.xml?ref=4310bfc20b84127e19bed68701caa3820c844682",
+    "https://api.github.com/repos/systemd/systemd/contents/meson.build?ref=4310bfc20b84127e19bed68701caa3820c844682",
+    "https://api.github.com/repos/systemd/systemd/contents/meson_options.txt?ref=4310bfc20b84127e19bed68701caa3820c844682",
+    "https://api.github.com/repos/systemd/systemd/contents/shell-completion%2Fbash%2Fresolvectl?ref=4310bfc20b84127e19bed68701caa3820c844682",
+    "https://api.github.com/repos/systemd/systemd/contents/shell-completion%2Fbash%2Fsystemd-resolve?ref=4310bfc20b84127e19bed68701caa3820c844682",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-conf.c?ref=4310bfc20b84127e19bed68701caa3820c844682",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-dns-server.c?ref=4310bfc20b84127e19bed68701caa3820c844682",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-dnstls-gnutls.c?ref=4310bfc20b84127e19bed68701caa3820c844682",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-dnstls-openssl.c?ref=4310bfc20b84127e19bed68701caa3820c844682",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-link.c?ref=4310bfc20b84127e19bed68701caa3820c844682",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fresolve-util.c?ref=4310bfc20b84127e19bed68701caa3820c844682",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fresolve-util.h?ref=4310bfc20b84127e19bed68701caa3820c844682",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-network.h?ref=4310bfc20b84127e19bed68701caa3820c844682"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fresolved.conf.xml?ref=4310bfc20b84127e19bed68701caa3820c844682": 14822,
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.network.xml?ref=4310bfc20b84127e19bed68701caa3820c844682": 116121,
+    "https://api.github.com/repos/systemd/systemd/contents/meson.build?ref=4310bfc20b84127e19bed68701caa3820c844682": 125837,
+    "https://api.github.com/repos/systemd/systemd/contents/meson_options.txt?ref=4310bfc20b84127e19bed68701caa3820c844682": 17592,
+    "https://api.github.com/repos/systemd/systemd/contents/shell-completion%2Fbash%2Fresolvectl?ref=4310bfc20b84127e19bed68701caa3820c844682": 5695,
+    "https://api.github.com/repos/systemd/systemd/contents/shell-completion%2Fbash%2Fsystemd-resolve?ref=4310bfc20b84127e19bed68701caa3820c844682": 2697,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-conf.c?ref=4310bfc20b84127e19bed68701caa3820c844682": 13554,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-dns-server.c?ref=4310bfc20b84127e19bed68701caa3820c844682": 32302,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-dnstls-gnutls.c?ref=4310bfc20b84127e19bed68701caa3820c844682": 7867,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-dnstls-openssl.c?ref=4310bfc20b84127e19bed68701caa3820c844682": 14159,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fresolve%2Fresolved-link.c?ref=4310bfc20b84127e19bed68701caa3820c844682": 46647,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fresolve-util.c?ref=4310bfc20b84127e19bed68701caa3820c844682": 1361,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fshared%2Fresolve-util.h?ref=4310bfc20b84127e19bed68701caa3820c844682": 1996,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-network.h?ref=4310bfc20b84127e19bed68701caa3820c844682": 7045
+  },
+  "total_size": 407695
+}

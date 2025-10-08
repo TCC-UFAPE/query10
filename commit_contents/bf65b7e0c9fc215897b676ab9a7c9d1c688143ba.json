@@ -1,0 +1,18 @@
+{
+  "commit": "bf65b7e0c9fc215897b676ab9a7c9d1c688143ba",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/NEWS?ref=bf65b7e0c9fc215897b676ab9a7c9d1c688143ba",
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.exec.xml?ref=bf65b7e0c9fc215897b676ab9a7c9d1c688143ba",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Funit.c?ref=bf65b7e0c9fc215897b676ab9a7c9d1c688143ba",
+    "https://api.github.com/repos/systemd/systemd/contents/units%2Fsystemd-journal-gatewayd.service.in?ref=bf65b7e0c9fc215897b676ab9a7c9d1c688143ba",
+    "https://api.github.com/repos/systemd/systemd/contents/units%2Fsystemd-journal-upload.service.in?ref=bf65b7e0c9fc215897b676ab9a7c9d1c688143ba"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/NEWS?ref=bf65b7e0c9fc215897b676ab9a7c9d1c688143ba": 500865,
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.exec.xml?ref=bf65b7e0c9fc215897b676ab9a7c9d1c688143ba": 196049,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fcore%2Funit.c?ref=bf65b7e0c9fc215897b676ab9a7c9d1c688143ba": 187852,
+    "https://api.github.com/repos/systemd/systemd/contents/units%2Fsystemd-journal-gatewayd.service.in?ref=bf65b7e0c9fc215897b676ab9a7c9d1c688143ba": 1107,
+    "https://api.github.com/repos/systemd/systemd/contents/units%2Fsystemd-journal-upload.service.in?ref=bf65b7e0c9fc215897b676ab9a7c9d1c688143ba": 1162
+  },
+  "total_size": 887035
+}

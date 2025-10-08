@@ -1,0 +1,14 @@
+{
+  "commit": "57a4359ee0bf65c16336e8157f0f9d2b084ddac3",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Ffs-util.c?ref=57a4359ee0bf65c16336e8157f0f9d2b084ddac3",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Ffs-util.h?ref=57a4359ee0bf65c16336e8157f0f9d2b084ddac3",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftest%2Ftest-fs-util.c?ref=57a4359ee0bf65c16336e8157f0f9d2b084ddac3"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Ffs-util.c?ref=57a4359ee0bf65c16336e8157f0f9d2b084ddac3": 25184,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fbasic%2Ffs-util.h?ref=57a4359ee0bf65c16336e8157f0f9d2b084ddac3": 3541,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Ftest%2Ftest-fs-util.c?ref=57a4359ee0bf65c16336e8157f0f9d2b084ddac3": 10942
+  },
+  "total_size": 39667
+}

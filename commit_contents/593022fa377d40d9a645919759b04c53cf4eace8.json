@@ -1,0 +1,20 @@
+{
+  "commit": "593022fa377d40d9a645919759b04c53cf4eace8",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.link.xml?ref=593022fa377d40d9a645919759b04c53cf4eace8",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Fethtool-util.c?ref=593022fa377d40d9a645919759b04c53cf4eace8",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Fethtool-util.h?ref=593022fa377d40d9a645919759b04c53cf4eace8",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Flink-config-gperf.gperf?ref=593022fa377d40d9a645919759b04c53cf4eace8",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Flink-config.c?ref=593022fa377d40d9a645919759b04c53cf4eace8",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Flink-config.h?ref=593022fa377d40d9a645919759b04c53cf4eace8"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/man%2Fsystemd.link.xml?ref=593022fa377d40d9a645919759b04c53cf4eace8": 21603,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Fethtool-util.c?ref=593022fa377d40d9a645919759b04c53cf4eace8": 17402,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Fethtool-util.h?ref=593022fa377d40d9a645919759b04c53cf4eace8": 3584,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Flink-config-gperf.gperf?ref=593022fa377d40d9a645919759b04c53cf4eace8": 3707,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Flink-config.c?ref=593022fa377d40d9a645919759b04c53cf4eace8": 17392,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fudev%2Fnet%2Flink-config.h?ref=593022fa377d40d9a645919759b04c53cf4eace8": 3344
+  },
+  "total_size": 67032
+}

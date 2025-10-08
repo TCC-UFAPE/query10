@@ -1,0 +1,10 @@
+{
+  "commit": "505b6a61c22d5565e9308045c7b9bf79f7d0517e",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2Fjournald-native.c?ref=505b6a61c22d5565e9308045c7b9bf79f7d0517e"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fjournal%2Fjournald-native.c?ref=505b6a61c22d5565e9308045c7b9bf79f7d0517e": 13352
+  },
+  "total_size": 13352
+}

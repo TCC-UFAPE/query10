@@ -1,0 +1,14 @@
+{
+  "commit": "4be391639f47b71ce021d8b5cb0f97c105a80156",
+  "urls": [
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-objects.c?ref=4be391639f47b71ce021d8b5cb0f97c105a80156",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Ftest-bus-objects.c?ref=4be391639f47b71ce021d8b5cb0f97c105a80156",
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-bus.h?ref=4be391639f47b71ce021d8b5cb0f97c105a80156"
+  ],
+  "sizes": {
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Fbus-objects.c?ref=4be391639f47b71ce021d8b5cb0f97c105a80156": 61179,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Flibsystemd-bus%2Ftest-bus-objects.c?ref=4be391639f47b71ce021d8b5cb0f97c105a80156": 15734,
+    "https://api.github.com/repos/systemd/systemd/contents/src%2Fsystemd%2Fsd-bus.h?ref=4be391639f47b71ce021d8b5cb0f97c105a80156": 13528
+  },
+  "total_size": 90441
+}
