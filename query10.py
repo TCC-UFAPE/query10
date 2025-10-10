@@ -394,8 +394,11 @@ def run_task_6_commit_analysis(vulnerabilities, project_to_repo):
                 import os, json
                 os.makedirs('commit_contents', exist_ok=True)
                 urls, sizes_map, total_size_via_contents = fetch_contents_sizes_from_commit(github_commit, session)
-                safe_name = re.sub(r'[^A-Za-z0-9_.-]', '_', f"{project_related}_{cve_related}")
-                out_path = os.path.join('commit_contents', f"{safe_name}.json")
+                # criar pasta por CVE e salvar arquivo com nome do hash
+                cve_safe = re.sub(r'[^A-Za-z0-9_.-]', '_', cve_related)
+                dir_path = os.path.join('commit_contents', cve_safe)
+                os.makedirs(dir_path, exist_ok=True)
+                out_path = os.path.join(dir_path, f"{commit_hash}.json")
                 with open(out_path, 'w', encoding='utf-8') as fh:
                     json.dump({
                         'commit': commit_hash,
@@ -488,7 +491,6 @@ def run_task_6_commit_analysis(vulnerabilities, project_to_repo):
     filename = "6_analise_tokens_commits_systemd_github.xlsx"
     df.to_excel(filename, index=False)
     print(f"\n-> Arquivo '{filename}' gerado com {len(commit_data)} commits do systemd analisados.")
-
 
 if __name__ == "__main__":
     if not GITHUB_TOKEN:
