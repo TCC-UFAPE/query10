@@ -6,7 +6,7 @@ import re
 
 BASE_URL = "https://vulnerabilityhistory.org/api"
 GITHUB_API_BASE = "https://api.github.com"
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = "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"
 
 def get_github_headers():
     headers = {
@@ -26,7 +26,6 @@ def request_with_retries(session, method, url, headers=None, timeout=30, max_ret
     while True:
         try:
             resp = session.request(method, url, headers=headers, timeout=timeout)
-            # Se for 5xx, considerar retry
             if 500 <= resp.status_code < 600 and attempt < max_retries:
                 attempt += 1
                 sleep_time = backoff_factor * (2 ** (attempt - 1))
@@ -333,8 +332,7 @@ def run_task_6_commit_analysis(vulnerabilities, project_to_repo):
     
     session = requests.Session()
     
-    # Filtrar apenas vulnerabilidades do systemd
-    systemd_vulns = [v for v in vulnerabilities if v.get('project_name', '').lower() == 'systemd']
+    systemd_vulns = [v for v in vulnerabilities if v.get('project_name', '').lower() == 'systemd' and (v.get('description') or '').strip()]
     print(f"   Vulnerabilidades do systemd: {len(systemd_vulns)} de {len(vulnerabilities)} totais")
     
     if not systemd_vulns:
